@@ -20,7 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `lms`
 --
-
 -- --------------------------------------------------------
 
 --
@@ -62,7 +61,6 @@ CREATE TABLE `books` (
 --
 -- Dumping data for table `books`
 --
-
 INSERT INTO `books` (`id`, `title`, `author`, `category_id`, `bookQuantity`, `created_at`, `updated_at`) VALUES
 (1, 'Notebook', 'PJA', 2, 30, '2025-04-02 19:06:04', '2025-04-02 19:06:59'),
 (2, 'Great lakes', 'CK', 3, 20, '2025-04-02 19:08:14', '2025-04-02 19:08:14');
