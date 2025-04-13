@@ -6,7 +6,6 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">Create New Category</div>
-
                 <div class="card-body">
                     <form method="POST" action="{{ route('categories.store') }}">
                         @csrf
