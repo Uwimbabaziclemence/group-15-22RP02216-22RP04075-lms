@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Book;
 use App\Models\IssuedBook;
 use App\Models\Student;
-use Illuminate\Http\Request;
+use Illuminate\Http\Request
 
 class IssuedBookController extends Controller
 {
