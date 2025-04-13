@@ -10,9 +10,7 @@ use Illuminate\Validation\Rule;
 
 class BookController extends Controller
 {
-    /**
-     * Display a listing of the books.
-     */
+ 
     public function index()
     {
         $books = Book::with('category')->get();
